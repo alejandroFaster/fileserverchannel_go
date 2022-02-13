@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}", //"${fileDirname}",
+            "env": {},
+            //"args": ["start", "10000"]
+            //"args": ["send", "/home/alejo/Descargas/prueba.png", "192.168.20.24", "10000", "-channel", "24"]
+            "args": ["receive", "192.168.20.24", "10000", "-channel", "24"]
+        }
+    ]
+}
